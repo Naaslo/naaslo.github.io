@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="Style.css" rel="stylesheet"/>
+    <title>Steve jobs Profil
+    </title>
+</head>
+    <header>
+            <nav class="Navigation">
+                <a class="buttonmenu" href="Blog.html">Blog</a>
+                <a class="buttonmenu" href="Article1.html">Elon Musk</a>
+                <a class="buttonmenu" href="Article2.html">Mark Zuckerberg</a>
+                <a class="buttonmenu" href="Article3.html">Jeff Bezos</a>
+                <a class="buttonmenu" href="#contactez">Contactez-nous</a>
+            </nav>
+    </header>
+    <body>
+        <div class="imagediv">
+            <img class = "image" style="width: 400px;" src="image/steve-jobs-illustration.jpg" alt="portrait de Stve Jobs"/>
+            <p class="pa">Steve jobs</p>
+        </div>
+        <h2 class="categ">Informations Personnelles</h2>
+        <ul>
+            <li class="liste">numéro Téléphone: 031 3345 98</li>
+            <li class="liste">Age: 56</li>
+            <li class="liste">Adresse Email: sjobs@apple.com</li>
+            <li class="liste">Adresse: 2066 Crist Drive, Los Altos, California</li>
+        </ul>
+        <section><h2 class="categ">About</h2>
+            <blockquote class="citation">"Votre travail va combler une grande partie de votre vie, et la seule façon d'être vraiment satisfait est de faire ce que vous croyez être un excellent travail."<br><b>Steve Jobs</b>: CEO of Apple</blockquote>
+        </section>
+        <div class="listediv"><h2 class="categ">Cv</h2>
+            <ul>
+                <li class="liste">1972-Homestead High School de Cupertino (Californie) en 1972</li>
+                <li class="liste">1973-Reed College de Portland dans l`Oregon</li>
+                <li class="liste">1974-Homebrew Computer Club avec Steve Wozniak</li>
+            </ul>
+        </div>
+        <table class="table" border="1">
+            <thead>
+                <tr>
+                    <th>Compétences</th>
+                    <th>Expériences</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><ul>
+                            <li>Entrepreneur</li>
+                            <li>Innovateur</li>
+                            <li>Polyvalent</li>
+                    </ul></td>
+                    <td>
+                        <ul>
+                            <li>Création Apple</li>
+                            <li>Création Iphone</li>
+                            <li>Création Pixar</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="contactez"></div>
+        <h2 class="categ"> Contactez nous :</h2>
+        <form method="get">
+            <div class="container">
+                <label class="label" for="email">Email : </label>
+                <input type="email" name="email" id="email"/>
+            </div>
+        </form>
+        <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="container">
+                    <input type="hidden" name="access_key" value="8b5d6b7e-5863-4cb3-b540-7ba0a65b7162">
+                </div>
+                <div class="container">
+                    <label class="label" for="name">Nom :</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="container">
+                    <label class="label" for="tel">Téléphone :</label>
+                    <input type="tel" name="tel" required>
+                </div>
+                <div class="container">
+                    <label class="label" for="message">Message :</label>
+                    <textarea name="message" required></textarea>
+                    <input type="button" value="Envoyer"></input>
+                </div>
+                <div>
+                    <input type="checkbox" name="checkbox" required>
+                    <label class="label" for="checkbox">J'accepte d'être recontacter.</label>
+                </div>
+        </form>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+    </body>
+</html>
